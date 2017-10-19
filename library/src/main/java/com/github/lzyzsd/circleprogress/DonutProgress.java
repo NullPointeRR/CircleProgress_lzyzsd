@@ -114,6 +114,7 @@ public class DonutProgress extends View {
         finishedPaint.setStyle(Paint.Style.STROKE);
         finishedPaint.setAntiAlias(true);
         finishedPaint.setStrokeWidth(finishedStrokeWidth);
+        finishedPaint.setStrokeCap(Cap.ROUND);
 
         unfinishedPaint = new Paint();
         unfinishedPaint.setColor(unfinishedStrokeColor);
